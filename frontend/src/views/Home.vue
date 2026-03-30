@@ -2,7 +2,7 @@
   <div class="home-container">
     <!-- Top Navigation Bar -->
     <nav class="navbar" :style="s.navbar">
-      <div class="nav-brand" :style="s.navBrand">MIROFISH OFFLINE</div>
+      <div class="nav-brand" :style="s.navBrand">MIROFISH FREE</div>
       <div class="nav-links" :style="s.navLinks">
         <a href="https://github.com/itslelouch/MirofishFree" target="_blank" class="github-link" :style="s.githubLink">
           Visit our Github <span>↗</span>
