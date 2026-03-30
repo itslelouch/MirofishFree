@@ -2,46 +2,71 @@
 
 <img src="./static/image/MiroFish_logo_compressed.jpeg" alt="MiroFish Logo" width="75%"/>
 
-<a href="https://trendshift.io/repositories/16144" target="_blank"><img src="https://trendshift.io/api/badge/repositories/16144" alt="666ghj%2FMiroFish | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/16144" target="_blank"><img src="https://trendshift.io/api/badge/repositories/16144" alt="MiroFish | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
-<em>A Simple and Universal Swarm Intelligence Engine, Predicting Anything</em>
-<em>A Simple and Universal Swarm Intelligence Engine, Predicting Anything</em>
+**A Simple and Universal Swarm Intelligence Engine — Predicting Anything**
 
-<a href="https://www.shanda.com/" target="_blank"><img src="./static/image/shanda_logo.png" alt="666ghj%2MiroFish | Shanda" height="40"/></a>
+<a href="https://www.shanda.com/" target="_blank"><img src="./static/image/shanda_logo.png" alt="Shanda" height="40"/></a>
 
 [![GitHub Stars](https://img.shields.io/github/stars/666ghj/MiroFish?style=flat-square&color=DAA520)](https://github.com/666ghj/MiroFish/stargazers)
-[![GitHub Watchers](https://img.shields.io/github/watchers/666ghj/MiroFish?style=flat-square)](https://github.com/666ghj/MiroFish/watchers)
 [![GitHub Forks](https://img.shields.io/github/forks/666ghj/MiroFish?style=flat-square)](https://github.com/666ghj/MiroFish/network)
-[![Docker](https://img.shields.io/badge/Docker-Build-2496ED?style=flat-square&logo=docker&logoColor=white)](https://hub.docker.com/)
+[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue?style=flat-square)](https://github.com/666ghj/MiroFish/blob/main/LICENSE)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/666ghj/MiroFish)
 
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=flat-square&logo=discord&logoColor=white)](http://discord.gg/ePf5aPaHnA)
 [![X](https://img.shields.io/badge/X-Follow-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/mirofish_ai)
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/mirofish_ai/)
-
-[English](./README-EN.md) | [Chinese Docs](./README.md)
 
 </div>
 
-## ⚡ Overview
+---
 
-**MiroFish** is a next-generation AI prediction engine powered by multi-agent technology. By extracting seed information from the real world (such as breaking news, policy drafts, or financial signals), it automatically constructs a high-fidelity parallel digital world. Within this space, thousands of intelligent agents with independent personalities, long-term memory, and behavioral logic freely interact and undergo social evolution. You can inject variables dynamically from a "God's-eye view" to precisely deduce future trajectories — **rehearse the future in a digital sandbox, and win decisions after countless simulations**.
+> **⚠️ This is an unofficial English-translated fork of the original [MiroFish](https://github.com/666ghj/MiroFish) project.**
+> All core code, architecture, and creative work belongs to the original authors.
+> This fork provides a fully English-translated codebase and updated setup instructions for running locally with the **free Longcat.chat LLM API**.
 
-> You only need to: Upload seed materials (data analysis reports or interesting novel stories) and describe your prediction requirements in natural language</br>
-> MiroFish will return: A detailed prediction report and a deeply interactive high-fidelity digital world
+---
 
-### Our Vision
+## 📌 What Makes This Fork Different
 
-MiroFish is dedicated to creating a swarm intelligence mirror that maps reality. By capturing the collective emergence triggered by individual interactions, we break through the limitations of traditional prediction:
+| Feature | Original MiroFish | This Fork |
+|---|---|---|
+| UI & Code Language | Chinese | **Fully English** |
+| LLM API | Alibaba Qwen (paid) | **Longcat.chat (free tier available)** |
+| Comments & Docs | Chinese | **English** |
+| Setup Guide | Chinese README | **This English README** |
 
-- **At the Macro Level**: We are a rehearsal laboratory for decision-makers, allowing policies and public relations to be tested at zero risk
-- **At the Micro Level**: We are a creative sandbox for individual users — whether deducing novel endings or exploring imaginative scenarios, everything can be fun, playful, and accessible
+All 14 frontend Vue files, all backend Python files, API modules, configuration files, and comments have been translated from Chinese to English. The project logic and architecture are **identical** to the original.
 
-From serious predictions to playful simulations, we let every "what if" see its outcome, making it possible to predict anything.
+---
+
+## ⚡ What is MiroFish?
+
+**MiroFish** is a next-generation AI prediction engine powered by multi-agent simulation technology.
+
+You upload **seed materials** (news reports, policy drafts, novel chapters, financial signals) and describe your **prediction goal** in plain language. MiroFish then:
+
+1. Extracts entities and builds a knowledge graph (backed by Zep Cloud)
+2. Generates thousands of AI agents with unique personalities and long-term memory
+3. Runs a **dual-platform social simulation** (Twitter + Reddit) where agents freely interact
+4. Produces a detailed **prediction report** written by a ReACT-based Report Agent
+5. Lets you **chat** with any agent in the simulated world
+
+> Think of it as: *run a digital rehearsal of the future, then win real decisions.*
+
+### Use Cases
+
+- 📰 **Public opinion prediction** — How will the public react to a news event?
+- 📜 **Policy impact simulation** — What happens if this law is passed?
+- 📖 **Creative writing** — What would happen next in a story?
+- 📈 **Financial signal analysis** — How would agents react to market news?
+
+---
 
 ## 🌐 Live Demo
 
-Welcome to visit our online demo environment and experience a prediction simulation on trending public opinion events we've prepared for you: [mirofish-live-demo](https://666ghj.github.io/mirofish-demo/)
+Try the original team's demo: [mirofish-live-demo](https://666ghj.github.io/mirofish-demo/)
+
+---
 
 ## 📸 Screenshots
 
@@ -62,317 +87,258 @@ Welcome to visit our online demo environment and experience a prediction simulat
 </table>
 </div>
 
-## 🎬 Demo Videos
+---
 
-### 1. Wuhan University Public Opinion Simulation + MiroFish Project Introduction
+## 🔄 How It Works
 
-<div align="center">
-<a href="https://www.bilibili.com/video/BV1VYBsBHEMY/" target="_blank"><img src="./static/image/wuhan_demo_cover.png" alt="MiroFish Demo Video" width="75%"/></a>
+```
+Upload seed docs  →  Knowledge Graph  →  Agent Generation  →  Simulation  →  Report + Chat
+      (PDF/TXT)        (Zep Cloud)         (LLM profiles)     (OASIS)       (ReportAgent)
+```
 
-Click the image to watch the complete demo video for prediction using BettaFish-generated "Wuhan University Public Opinion Report"
-</div>
+1. **Graph Building** — Extracts entities from your documents, builds a GraphRAG-style knowledge graph in Zep Cloud
+2. **Environment Setup** — Generates agent personas (personality, background, platform behavior) using LLM
+3. **Simulation** — Runs dual-platform (Twitter + Reddit) multi-round agent interaction via the OASIS framework
+4. **Report Generation** — ReportAgent uses ReACT reasoning + retrieval tools to write a structured prediction report
+5. **Deep Interaction** — Chat with any simulated agent or ask follow-up questions to the ReportAgent
 
-### 2. Dream of the Red Chamber Lost Ending Simulation
-
-<div align="center">
-<a href="https://www.bilibili.com/video/BV1cPk3BBExq" target="_blank"><img src="./static/image/hongloumeng_demo_cover.jpg" alt="MiroFish Demo Video" width="75%"/></a>
-
-Click the image to watch MiroFish's deep prediction of the lost ending based on hundreds of thousands of words from the first 80 chapters of "Dream of the Red Chamber"
-</div>
-
-> **Financial Prediction**, **Political News Prediction** and more examples coming soon...
-
-## 🔄 Workflow
-
-1. **Graph Building**: Seed extraction & Individual/collective memory injection & GraphRAG construction
-2. **Environment Setup**: Entity relationship extraction & Persona generation & Agent configuration injection
-3. **Simulation**: Dual-platform parallel simulation & Auto-parse prediction requirements & Dynamic temporal memory updates
-4. **Report Generation**: ReportAgent with rich toolset for deep interaction with post-simulation environment
-5. **Deep Interaction**: Chat with any agent in the simulated world & Interact with ReportAgent
+---
 
 ## 🚀 Quick Start
 
-### Option 1: Source Code Deployment (Recommended)
+### Prerequisites
 
-#### Prerequisites
-
-| Tool | Version | Description | Check Installation |
-|------|---------|-------------|-------------------|
-| **Node.js** | 18+ | Frontend runtime, includes npm | `node -v` |
-| **Python** | ≥3.11, ≤3.12 | Backend runtime | `python --version` |
+| Tool | Version | Purpose | Check |
+|------|---------|---------|-------|
+| **Node.js** | 18+ | Frontend runtime | `node -v` |
+| **Python** | 3.11–3.12 | Backend runtime | `python --version` |
 | **uv** | Latest | Python package manager | `uv --version` |
 
-#### 1. Configure Environment Variables
-
+Install `uv` if you don't have it:
 ```bash
-# Copy the example configuration file
-cp .env.example .env
-
-# Edit the .env file and fill in the required API keys
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-**Required Environment Variables:**
+---
+
+### Step 1 — Get API Keys
+
+You need **two** API keys:
+
+#### 1. Longcat.chat (LLM) — Free
+
+Longcat.chat provides a free OpenAI-compatible API. This fork is pre-configured to use it.
+
+1. Sign up at **[longcat.chat](https://longcat.chat)**
+2. Get your API key from the dashboard (starts with `ak_...`)
+3. Models to use: `LongCat-Flash-Chat` (main) and `LongCat-Flash-Lite` (boost/fast)
+
+#### 2. Zep Cloud (Graph Memory) — Free Tier Available
+
+Zep Cloud stores agent memories and the knowledge graph. The free monthly quota is enough for basic simulations.
+
+1. Sign up at **[app.getzep.com](https://app.getzep.com/)**
+2. Copy your API key from the dashboard
+
+---
+
+### Step 2 — Configure Environment
+
+Clone or download this repo, then create a `.env` file in the **project root** (same folder as `package.json`):
 
 ```env
-# LLM API Configuration (supports any LLM API with OpenAI SDK format)
-# Recommended: Alibaba Qwen-plus model via Bailian Platform: https://bailian.console.aliyun.com/
-# High consumption, try simulations with fewer than 40 rounds first
-LLM_API_KEY=your_api_key
-LLM_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
-LLM_MODEL_NAME=qwen-plus
+# ── LLM API (Longcat.chat — free) ──
+LLM_API_KEY=ak_your_longcat_key_here
+LLM_BASE_URL=https://api.longcat.chat/openai/v1
+LLM_MODEL_NAME=LongCat-Flash-Chat
 
-# Zep Cloud Configuration
-# Free monthly quota is sufficient for simple usage: https://app.getzep.com/
-ZEP_API_KEY=your_zep_api_key
+# ── Boost LLM (optional but recommended — faster for simple tasks) ──
+LLM_BOOST_API_KEY=ak_your_longcat_key_here
+LLM_BOOST_BASE_URL=https://api.longcat.chat/openai/v1
+LLM_BOOST_MODEL_NAME=LongCat-Flash-Lite
+
+# ── Zep Cloud (graph memory) ──
+ZEP_API_KEY=your_zep_api_key_here
 ```
 
-#### 2. Install Dependencies
+> **Note:** `LLM_BASE_URL` and `LLM_MODEL_NAME` already default to Longcat values in the backend config, so they are optional in `.env` — but it's good practice to set them explicitly.
+
+---
+
+### Step 3 — Install Dependencies
 
 ```bash
-# One-click installation of all dependencies (root + frontend + backend)
+# Install everything in one command (Node + frontend + Python backend)
 npm run setup:all
 ```
 
-Or install step by step:
+Or step by step:
 
 ```bash
 # Install Node dependencies (root + frontend)
 npm run setup
 
-# Install Python dependencies (backend, auto-creates virtual environment)
+# Install Python dependencies (backend — creates a virtual environment automatically)
 npm run setup:backend
 ```
 
-#### 3. Start Services
+---
+
+### Step 4 — Run
 
 ```bash
-# Start both frontend and backend (run from project root)
 npm run dev
 ```
 
-**Service URLs:**
-- Frontend: `http://localhost:3000`
-- Backend API: `http://localhost:5001`
+This starts both the frontend and backend together.
 
-**Start Individually:**
+| Service | URL |
+|---------|-----|
+| Frontend (Vue) | http://localhost:3000 |
+| Backend API | http://localhost:5001 |
+
+Run them separately if you prefer:
 
 ```bash
-npm run backend   # Start backend only
-npm run frontend  # Start frontend only
+npm run backend    # Flask API server only
+npm run frontend   # Vite dev server only
 ```
 
-### Option 2: Docker Deployment
+---
+
+### Step 5 — Use the App
+
+1. Open `http://localhost:3000`
+2. Upload seed documents (PDF or plain text)
+3. Type your prediction goal in natural language
+4. Click **Launch Engine** — the system will build the graph and generate agents
+5. Start the simulation and watch agents interact in real time
+6. Generate your prediction report when the simulation finishes
+7. Chat with agents or the Report Agent for deeper insights
+
+---
+
+## 🐳 Docker (Alternative)
 
 ```bash
-# 1. Configure environment variables (same as source deployment)
-cp .env.example .env
+# 1. Set up your .env file (same as above)
+cp .env.example .env   # then edit .env
 
-# 2. Pull image and start
+# 2. Pull and start
 docker compose up -d
 ```
 
-Reads `.env` from root directory by default, maps ports `3000 (frontend) / 5001 (backend)`
+Frontend: `http://localhost:3000` | Backend: `http://localhost:5001`
 
-> Mirror address for faster pulling is provided as comments in `docker-compose.yml`, replace if needed.
+---
 
-## 📬 Join the Conversation
+## 💡 Tips for Getting the Best Results
 
-<div align="center">
-<img src="./static/image/qq_group.png" alt="QQ Group" width="60%"/>
-</div>
+- **Seed documents**: The richer your input material, the better the agents and predictions. 2,000–50,000 words is ideal.
+- **Simulation rounds**: Start with 10–20 rounds to test. Full simulations can use 40–100+ rounds.
+- **Agent count**: Controlled by the document's entity count. Larger graphs = more agents = longer simulation.
+- **Longcat free tier**: Suitable for small-to-medium simulations. For large runs (100+ agents, 50+ rounds), monitor your quota.
 
-&nbsp;
+---
 
-The MiroFish team is recruiting full-time/internship positions. If you're interested in multi-agent simulation and LLM applications, feel free to send your resume to: **mirofish@shanda.com**
+## 🔧 Project Structure
 
-## 📄 Acknowledgments
-
-**MiroFish has received strategic support and incubation from Shanda Group!**
-
-MiroFish's simulation engine is powered by **[OASIS (Open Agent Social Interaction Simulations)](https://github.com/camel-ai/oasis)**, We sincerely thank the CAMEL-AI team for their open-source contributions!
-
-## 📈 Project Statistics
-
-<a href="https://www.star-history.com/#666ghj/MiroFish&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=666ghj/MiroFish&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=666ghj/MiroFish&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=666ghj/MiroFish&type=date&legend=top-left" />
- </picture>
-</a>
-[English](./README-EN.md) | [中文文档](./README.md)
-
-</div>
-
-## ⚡ 项目概述
-
-**MiroFish** 是一款基于多智能体技术的新一代 AI 预测引擎。通过提取现实世界的种子信息（如突发新闻、政策草案、金融信号），自动构建出高保真的平行数字世界。在此空间内，成千上万个具备独立人格、长期记忆与行为逻辑的智能体进行自由交互与社会演化。你可透过「上帝视角」动态注入变量，精准推演未来走向——**让未来在数字沙盘中预演，助决策在百战模拟后胜出**。
-
-> 你只需：上传种子材料（数据分析报告或者有趣的小说故事），并用自然语言描述预测需求</br>
-> MiroFish 将返回：一份详尽的预测报告，以及一个可深度交互的高保真数字世界
-
-### 我们的愿景
-
-MiroFish 致力于打造映射现实的群体智能镜像，通过捕捉个体互动引发的群体涌现，突破传统预测的局限：
-
-- **于宏观**：我们是决策者的预演实验室，让政策与公关在零风险中试错
-- **于微观**：我们是个人用户的创意沙盘，无论是推演小说结局还是探索脑洞，皆可有趣、好玩、触手可及
-
-从严肃预测到趣味仿真，我们让每一个如果都能看见结果，让预测万物成为可能。
-
-## 🌐 在线体验
-
-欢迎访问在线 Demo 演示环境，体验我们为你准备的一次关于热点舆情事件的推演预测：[mirofish-live-demo](https://666ghj.github.io/mirofish-demo/)
-
-## 📸 系统截图
-
-<div align="center">
-<table>
-<tr>
-<td><img src="./static/image/Screenshot/运行截图1.png" alt="截图1" width="100%"/></td>
-<td><img src="./static/image/Screenshot/运行截图2.png" alt="截图2" width="100%"/></td>
-</tr>
-<tr>
-<td><img src="./static/image/Screenshot/运行截图3.png" alt="截图3" width="100%"/></td>
-<td><img src="./static/image/Screenshot/运行截图4.png" alt="截图4" width="100%"/></td>
-</tr>
-<tr>
-<td><img src="./static/image/Screenshot/运行截图5.png" alt="截图5" width="100%"/></td>
-<td><img src="./static/image/Screenshot/运行截图6.png" alt="截图6" width="100%"/></td>
-</tr>
-</table>
-</div>
-
-## 🎬 演示视频
-
-### 1. 武汉大学舆情推演预测 + MiroFish项目讲解
-
-<div align="center">
-<a href="https://www.bilibili.com/video/BV1VYBsBHEMY/" target="_blank"><img src="./static/image/武大模拟演示封面.png" alt="MiroFish Demo Video" width="75%"/></a>
-
-点击图片查看使用微舆BettaFish生成的《武大舆情报告》进行预测的完整演示视频
-</div>
-
-### 2. 《红楼梦》失传结局推演预测
-
-<div align="center">
-<a href="https://www.bilibili.com/video/BV1cPk3BBExq" target="_blank"><img src="./static/image/红楼梦模拟推演封面.jpg" alt="MiroFish Demo Video" width="75%"/></a>
-
-点击图片查看基于《红楼梦》前80回数十万字，MiroFish深度预测失传结局
-</div>
-
-> **金融方向推演预测**、**时政要闻推演预测**等示例陆续更新中...
-
-## 🔄 工作流程
-
-1. **图谱构建**：现实种子提取 & 个体与群体记忆注入 & GraphRAG构建
-2. **环境搭建**：实体关系抽取 & 人设生成 & 环境配置Agent注入仿真参数
-3. **开始模拟**：双平台并行模拟 & 自动解析预测需求 & 动态更新时序记忆
-4. **报告生成**：ReportAgent拥有丰富的工具集与模拟后环境进行深度交互
-5. **深度互动**：与模拟世界中的任意一位进行对话 & 与ReportAgent进行对话
-
-## 🚀 快速开始
-
-### 一、源码部署（推荐）
-
-#### 前置要求
-
-| 工具 | 版本要求 | 说明 | 安装检查 |
-|------|---------|------|---------|
-| **Node.js** | 18+ | 前端运行环境，包含 npm | `node -v` |
-| **Python** | ≥3.11, ≤3.12 | 后端运行环境 | `python --version` |
-| **uv** | 最新版 | Python 包管理器 | `uv --version` |
-
-#### 1. 配置环境变量
-
-```bash
-# 复制示例配置文件
-cp .env.example .env
-
-# 编辑 .env 文件，填入必要的 API 密钥
+```
+MiroFish/
+├── frontend/              # Vue 3 + Vite frontend
+│   └── src/
+│       ├── views/         # Page components (14 files — all translated)
+│       ├── api/           # Backend API client modules
+│       └── store/         # Reactive state stores
+├── backend/               # Flask + Python backend
+│   └── app/
+│       ├── api/           # REST API route handlers
+│       ├── services/      # Core business logic
+│       │   ├── ontology_generator.py      # Entity extraction via LLM
+│       │   ├── oasis_profile_generator.py # Agent persona generation
+│       │   ├── simulation_runner.py       # OASIS simulation orchestration
+│       │   ├── report_agent.py            # ReACT report generation
+│       │   ├── zep_entity_reader.py       # Zep graph memory reader
+│       │   └── zep_graph_memory_updater.py # Real-time memory updates
+│       ├── models/        # Data models (Project, Task, Simulation)
+│       └── utils/         # LLM client, file parser, logger
+├── static/image/          # Screenshots and demo images
+├── .env.example           # Template for environment variables
+└── package.json           # Root scripts (dev, setup, build)
 ```
 
-**必需的环境变量：**
+---
 
-```env
-# LLM API配置（支持 OpenAI SDK 格式的任意 LLM API）
-# 推荐使用阿里百炼平台qwen-plus模型：https://bailian.console.aliyun.com/
-# 注意消耗较大，可先进行小于40轮的模拟尝试
-LLM_API_KEY=your_api_key
-LLM_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
-LLM_MODEL_NAME=qwen-plus
+## ⚙️ Environment Variable Reference
 
-# Zep Cloud 配置
-# 每月免费额度即可支撑简单使用：https://app.getzep.com/
-ZEP_API_KEY=your_zep_api_key
-```
+| Variable | Required | Default | Description |
+|----------|----------|---------|-------------|
+| `LLM_API_KEY` | ✅ Yes | — | Your LLM API key (Longcat or any OpenAI-compatible) |
+| `LLM_BASE_URL` | No | `https://api.longcat.chat/openai/v1` | LLM API endpoint |
+| `LLM_MODEL_NAME` | No | `LongCat-Flash-Chat` | Main model name |
+| `LLM_BOOST_API_KEY` | No | Same as `LLM_API_KEY` | Boost model key (for faster light tasks) |
+| `LLM_BOOST_BASE_URL` | No | Same as `LLM_BASE_URL` | Boost model endpoint |
+| `LLM_BOOST_MODEL_NAME` | No | `LongCat-Flash-Lite` | Boost model name |
+| `ZEP_API_KEY` | ✅ Yes | — | Zep Cloud API key for graph memory |
 
-#### 2. 安装依赖
+---
 
-```bash
-# 一键安装所有依赖（根目录 + 前端 + 后端）
-npm run setup:all
-```
+## 🐛 Troubleshooting
 
-或者分步安装：
+**Backend fails to start with `ModuleNotFoundError`**
+- Make sure you ran `npm run setup:backend` (installs Python deps via uv)
+- Python version must be 3.11 or 3.12
 
-```bash
-# 安装 Node 依赖（根目录 + 前端）
-npm run setup
+**Frontend port 3000 in use**
+- Vite will automatically try port 3001 — check the terminal output for the actual URL
 
-# 安装 Python 依赖（后端，自动创建虚拟环境）
-npm run setup:backend
-```
+**`ZEP_API_KEY not configured` error**
+- Your `.env` file must be in the project root (same folder as `package.json`)
 
-#### 3. 启动服务
+**LLM API errors / quota exceeded**
+- Check your Longcat dashboard for remaining credits
+- Try reducing simulation rounds or agent count
 
-```bash
-# 同时启动前后端（在项目根目录执行）
-npm run dev
-```
+---
 
-**服务地址：**
-- 前端：`http://localhost:3000`
-- 后端 API：`http://localhost:5001`
+## 📄 Credits & Attribution
 
-**单独启动：**
+### Original Project
 
-```bash
-npm run backend   # 仅启动后端
-npm run frontend  # 仅启动前端
-```
+This project is a fully English-translated fork of **MiroFish**, created by the [MiroFish Team](https://github.com/666ghj/MiroFish) and incubated by [Shanda Group](https://www.shanda.com/).
 
-### 二、Docker 部署
+- **Original Repository:** [https://github.com/666ghj/MiroFish](https://github.com/666ghj/MiroFish)
+- **Original Authors:** 666ghj and the MiroFish Team
+- **License:** [AGPL-3.0](https://github.com/666ghj/MiroFish/blob/main/LICENSE) — This fork inherits the same license
 
-```bash
-# 1. 配置环境变量（同源码部署）
-cp .env.example .env
+> All credit for the architecture, simulation engine, agent design, and core algorithms goes entirely to the original MiroFish team. This fork only translates the user-facing text, comments, and documentation into English.
 
-# 2. 拉取镜像并启动
-docker compose up -d
-```
+### Simulation Engine
 
-默认会读取根目录下的 `.env`，并映射端口 `3000（前端）/5001（后端）`
+The multi-agent social simulation is powered by **[OASIS (Open Agent Social Interaction Simulations)](https://github.com/camel-ai/oasis)** by the CAMEL-AI team.
 
-> 在 `docker-compose.yml` 中已通过注释提供加速镜像地址，可按需替换
+### Translation
 
-## 📬 更多交流
+Chinese → English translation of all source code, comments, LLM prompts, and UI strings was performed with the assistance of AI tooling (Claude by Anthropic) on this fork. All translation work is non-commercial and done in good faith to make the project accessible to English-speaking developers.
 
-<div align="center">
-<img src="./static/image/QQ群.png" alt="QQ交流群" width="60%"/>
-</div>
+### What Was Translated in This Fork
 
-&nbsp;
+- All 14 frontend Vue component files (UI text, comments, variable descriptions)
+- All backend Python service files (docstrings, inline comments, log messages, LLM prompt templates)
+- REST API route files and model files
+- Configuration files (`pyproject.toml`, `requirements.txt`, `package.json`, `docker-compose.yml`)
+- Image asset filenames (renamed from Chinese to English)
+- This README
 
-MiroFish团队长期招募全职/实习，如果你对多Agent应用感兴趣，欢迎投递简历至：**mirofish@shanda.com**
+---
 
-## 📄 致谢
+## 📬 Community (Original Project)
 
-**MiroFish 得到了盛大集团的战略支持和孵化！**
+The original MiroFish team is actively recruiting. If you're interested in multi-agent simulation and LLM applications, reach out at: **mirofish@shanda.com**
 
-MiroFish 的仿真引擎由 **[OASIS](https://github.com/camel-ai/oasis)** 驱动，我们衷心感谢 CAMEL-AI 团队的开源贡献！
+---
 
-## 📈 项目统计
+## 📈 Star History
 
 <a href="https://www.star-history.com/#666ghj/MiroFish&type=date&legend=top-left">
  <picture>
